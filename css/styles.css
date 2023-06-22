@@ -43,6 +43,7 @@ img {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 15px;
 }
 
 .list {
@@ -67,6 +68,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--second-basic-color);
+    margin-bottom: 8px;
 }
 
 .list-text {
@@ -104,7 +106,6 @@ img {
 .header-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .header-logo {
@@ -116,6 +117,9 @@ img {
     text-transform: uppercase;
     letter-spacing: 0.03em;
     color: var(--butn-logo-color);
+    margin-right: 76px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-text-span {
@@ -125,14 +129,14 @@ img {
 .header-nav {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
     
 .header-nav-link-list {
     display: flex;
     align-items: center;
-    
+    gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-nav-item {
@@ -146,8 +150,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--second-basic-color);
-    gap: 40px;
-    margin-left: 76px;
 }
 
 .header-nav-link:hover,
@@ -157,6 +159,7 @@ img {
 
 .header-adress {
     font-style: normal;
+    margin-left: auto;
 }
 
 .header-adress-list {
@@ -199,7 +202,9 @@ img {
     text-align: center;
     color: var(--first-basic-color);
     width: 496px;
-    margin: 0 auto;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .button-hero {
     display: block;
@@ -211,8 +216,9 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     padding: 16px 32px;
-    margin: 48px auto;
     border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .button-hero:hover,
@@ -226,16 +232,19 @@ img {
 */
 .deskr-section {
     padding-top: 120px;
-    padding-bottom: 60px;
+    padding-bottom: 120px;
 }
 
 .deskr-list-container {
     display: flex;
+    gap: 24px;
 }
 
 .deskr-list {}
 
-.deskr-list-item {}
+.deskr-list-item {
+    width: calc((100% - 72) /4);
+}
 
 
 /**
@@ -244,7 +253,6 @@ img {
   |============================
 */
 .doing-section {
-    padding-top: 60px;
     padding-bottom: 120px;
 }
 
@@ -256,12 +264,12 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--second-basic-color);
+    margin-bottom: 72px;
 }
 
 .doing-section-list {
-    padding-top: 72px;
     display: flex;
-    gap: 8px 24px;
+    gap: 24px;
 }
 
 .doing-section-item {}
@@ -286,7 +294,7 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--second-basic-color);
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .team-list {
@@ -343,9 +351,9 @@ img {
 .services-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px 32px ;
-    padding-top: 72px;
-    padding-bottom: 120px;
+    gap: 24px ;
+    margin-top: 72px;
+    margin-bottom: 120px;
 }
 
 .services-list-title {
